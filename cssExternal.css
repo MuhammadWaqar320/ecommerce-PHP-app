@@ -1,0 +1,1235 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.MainBody {
+	background-color: rgb(238, 224, 224);
+}
+
+.FomrMain {
+	background-image: url(bgImage/Login2.jpg);
+	background-repeat: no-repeat;
+}
+
+.user {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+	border-radius: 50%;
+}
+
+.fa-star {
+	color: #ff0000;
+}
+
+.LoginH {
+	color: white;
+	padding-top: 10px;
+}
+
+.FormDiv input[type="text"],
+.FormDiv input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	padding: 0px;
+	;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+
+
+}
+
+.LoginHome:hover {
+	color: white;
+}
+
+.FormDiv input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.FormDiv {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 500px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background-color: darkslateblue;
+
+}
+
+body {
+	background-color: silver;
+}
+
+#nav-li-a {
+	color: black;
+	font-size: 22px;
+}
+
+.anchor {
+	color: white;
+	font-size: 18px;
+}
+
+.anchor:hover {
+	color: yellow;
+}
+
+.here {
+	margin-top: 0px;
+	margin-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 22px;
+	padding-top: 10px;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px red;
+}
+
+.NavBarTop {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.FormDiv input[type="submit"] {
+	margin-top: 5px;
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: red;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.FormDiv input[type="submit"]:hover {
+	background-color: yellow;
+	color: black;
+}
+
+.FormDiv input {
+	margin-top: 1px;
+}
+
+.Home-search {
+	padding-top: 12px;
+}
+
+.FormDiv p {
+	margin-top: 5px;
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+#clockdiv {
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 60px;
+	padding: 8px;
+}
+
+@media(max-width: 600px) {
+	.Timer {
+		display: none;
+	}
+}
+
+@media(max-width: 950px) {
+	.cardContainer {
+		margin-top: 500px;
+	}
+}
+
+#clockdiv>div {
+	padding: 15px;
+	border-radius: 3px;
+	background: rgb(57, 134, 22);
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	box-shadow: 0 0 15px 5px rgb(241, 226, 7);
+}
+
+#clockdiv div>span {
+	padding: 30px;
+	border-radius: 3px;
+	background: rgb(82, 3, 3);
+	display: inline-block;
+	height: 150px;
+	width: 155px;
+}
+
+.smalltext {
+	padding-top: 5px;
+	font-size: 16px;
+	color: white;
+}
+
+.search-bar {
+	border: 2px solid #db4437;
+}
+
+#nav-li-a:hover {
+	color: red;
+}
+
+.market0 {
+	padding-top: 40px;
+	padding-left: 25px;
+}
+
+.mmar {
+	padding-left: 15px;
+}
+
+.men {
+	font-size: 38px;
+}
+
+.market2 {
+	padding-top: 15px;
+}
+
+.market3 {
+	padding-left: 15px;
+}
+
+.market4 {
+	padding-left: 15px;
+
+}
+
+.market5 {
+	padding-left: 15px;
+}
+
+.market6 {
+	padding-left: 15px;
+}
+
+.market7 {
+	padding-left: 15px;
+}
+
+.market8 {
+	padding-left: 15px;
+}
+
+.market3:hover {
+	color: red;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.market4:hover {
+	color: red;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.market5:hover {
+	color: red;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.market6:hover {
+	color: red;
+	font-size: 22px;
+	cursor: pointer;
+
+}
+
+#demo a {
+	text-decoration: none;
+	color: black;
+	padding-left: 40px;
+}
+
+#demo a:hover {
+	color: red;
+}
+
+#NavItem {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.market7:hover {
+	color: red;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+@media(max-width: 700px) {
+	.FormDiv {
+		margin-top: 175px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.Main {
+		margin-bottom: 400px;
+	}
+}
+
+@media(max-width: 600px) {
+	.sliderDiv {
+		margin-top: 175px;
+		padding-left: 15px;
+	}
+}
+
+@media(max-width: 1200px) {
+	.sale {
+		display: none;
+	}
+}
+
+@media(max-width: 600px) {
+	.abc {
+		margin-top: 360px;
+	}
+}
+
+@media(max-width: 600px) {
+	.d-block {
+		width: 510px;
+		height: 350px;
+	}
+}
+
+.mob {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.lastnav {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	border: 1px solid silver;
+	border-radius: 50px;
+	width: 170px;
+	height: 73px;
+	background-color: white;
+	color: black;
+	margin-top: 14px;
+}
+
+.navimage {
+	border: 1px solid silver;
+	border-radius: 55px;
+}
+
+.lastnav a {
+	color: black;
+}
+
+.lastnav a:hover {
+	color: red;
+}
+
+.market8:hover {
+	color: red;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+	.Res {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1415px) {
+	.lastnav {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1455px) and (min-width: 700px) {
+	.nav-item {
+		display: none;
+	}
+}
+
+.v1 {
+	padding-bottom: 20px;
+}
+
+.orderT {
+	font-size: 20px;
+	color: black;
+}
+
+.sliderLeft {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.navPic ul li a img {
+	border-radius: 30px;
+	border: 1px solid silver;
+}
+
+.navPic ul li a {
+	text-decoration: none;
+	padding-top: 17px;
+	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	color: black;
+	float: left;
+	border-radius: 20px;
+}
+
+.navPic ul li a:hover {
+	color: red;
+}
+
+.navPic {
+	padding: 0px;
+	margin: 0px;
+}
+
+.navPic ul li {
+	display: inline-block;
+}
+
+.sliderRight {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.relate {
+	font-size: 70px;
+	font-family: initial;
+	text-shadow: 1px 1px red;
+	text-align: center;
+	color: orangered;
+	text-shadow: 2px 2px yellow;
+	font-weight: 550;
+}
+
+.sNow a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.sNow a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+
+.sNow {
+	border: 1px solid whitesmoke;
+	background-color: black;
+	width: 92px;
+	padding-left: 5px;
+	border-radius: 12px;
+}
+
+.salePic {
+	padding-left: 10px;
+	;
+}
+
+.linkDiv {
+	background-color: #F5F5F5;
+	height: 100px;
+	border-bottom: 1px solid silver;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.sale {
+	padding-top: 45px;
+}
+
+.sliderDiv {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.form-control {
+	border: 1px solid black;
+}
+
+.cardDiv {
+	background-color: white;
+}
+
+.form-control:focus {
+	border-color: white;
+}
+
+.bgAnim {
+	animation: backgrnd 10s infinite;
+}
+
+.shopAnim {
+	font-size: 38px;
+	animation: waqar 5s infinite;
+}
+
+@keyframes waqar {
+	0% {
+		color: blue;
+		font-size: 5px;
+	}
+
+	10% {
+		color: red;
+		font-size: 10px;
+	}
+
+	20% {
+		color: green;
+	}
+
+	40% {
+		color: yellow;
+	}
+
+	60% {
+		color: black;
+	}
+
+	80% {
+		color: grey;
+	}
+
+	100% {
+		color: orange;
+	}
+}
+
+.shopAnim {
+	font-size: 38px;
+}
+
+.shopAnim {
+	font-weight: bold;
+	text-shadow: silver 8px 8px 2px;
+	animation: waqar 10s infinite;
+}
+
+.footer-social-icons ul li {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+@keyframes waqar {
+	0% {
+		color: blue;
+	}
+
+	10% {
+		color: red;
+	}
+
+	20% {
+		color: green;
+	}
+
+	40% {
+		color: yellow;
+	}
+
+	50% {
+		color: black;
+	}
+
+	60% {
+		color: orange
+	}
+
+	70% {
+		color: brown
+	}
+
+	80% {
+		color: navy;
+	}
+
+	100% {
+		color: purple;
+	}
+}
+
+.footerDiv {
+	background-image: url("bgImage/Fbg.jpg");
+	margin-bottom: 15px;
+}
+
+.containerCompany {
+	background-color: cornsilk;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.embedVideo {
+	background: aliceblue;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.com {
+	font-size: 60px;
+	text-align: center;
+	margin: 0px 5px;
+	color: orangered;
+	font-weight: bold;
+	font-family: initial;
+	text-shadow: 2px 2px yellow;
+}
+
+.card-body {
+	background: paleturquoise;
+}
+
+.card-body:hover {
+	background: darkkhaki;
+}
+
+.card-body h5 {
+	color: #ff0000
+}
+
+.cardContainer {
+	background-image: url("bgImage/Timer3.jpg");
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.footer-social-icons ul {
+	text-align: center;
+}
+
+.footer-social-icons ul li {
+	margin-right: px;
+	height: 36px;
+	width: 36px;
+}
+
+.footer-social-icons ul li a {
+	color: #fff;
+	display: block;
+	font-size: 22px;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.footer-social-icons ul {
+	padding-top: 10px;
+}
+
+.footer-social-icons ul li a i {
+	line-height: 36px;
+}
+
+.footer-social-icons ul li:nth-child(1) {
+	background-color: #3b5998;
+}
+
+.footer-social-icons ul li:nth-child(2) {
+	background-color: #1da1f2;
+}
+
+.footer-social-icons ul li:nth-child(3) {
+	background-color: #25d336;
+}
+
+.footer-social-icons ul li:nth-child(4) {
+	background-color: #c32aa3;
+}
+
+.footer-social-icons ul li:nth-child(5) {
+	background-color: #ff0000;
+}
+
+.footer-social-icons ul li:nth-child(6) {
+	background-color: #db4437;
+}
+
+.footer-social-icons ul li:nth-child(7) {
+	background-color: #00aff0;
+}
+
+.footer-social-icons ul li:nth-child(8) {
+	background-color: #09b83e;
+}
+
+.footer-social-icons ul li:nth-child(9) {
+	background-color: #bd081c;
+}
+
+.footer-contact-icon i {
+	color: white;
+	float: left;
+	width: 25px;
+	height: 25px;
+}
+
+.footer-contact-text p {
+
+	font-size: 16px;
+	text-align: left;
+	color: white;
+}
+
+.footer-section-one {
+	width: 100%;
+	height: 334px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-left: 12px;
+	padding-left: 60px;
+	background-color: rgba(255, 255, 255, .1);
+}
+
+.footer-section-two {
+	width: 100%;
+	height: 334px;
+	padding-left: 60px;
+	padding-top: 40px;
+	margin-left: 10px;
+	background-color: rgba(255, 255, 255, .1);
+
+}
+
+.footer-section-three {
+	width: 470px;
+	height: 334px;
+	padding-left: 60px;
+	padding-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: rgba(255, 255, 255, .1);
+}
+
+.footer-heading span {
+	font-size: 40px;
+	color: red;
+	font-family: initial;
+	font-weight: bold;
+}
+
+.Email {
+	height: 40px;
+	border: 2px solid red;
+	border-radius: 5px;
+	padding-left: 5px;
+	color: chartreuse;
+	margin-bottom: 20px;
+	background-color: rgb(171, 232, 235);
+}
+
+.Send {
+	height: 40px;
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 70px;
+	background-color: rgb(171, 232, 235);
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.Send:hover {
+	background-color: red;
+	color: whitesmoke;
+}
+
+.goTop {
+	scroll-behavior: smooth;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 30px;
+	right: 20px;
+	text-decoration: none;
+	color: grey;
+	font-size: 35px;
+	padding-left: 8px;
+}
+
+#comDet1 i {
+	margin-top: 10px;
+	padding-top: 15px;
+	width: 90px;
+	height: 90px;
+	border-radius: 85px;
+	background: rgb(193, 255, 234);
+	border: 1px solid blue;
+
+}
+
+#comDet2 i {
+	margin-top: 10px;
+	padding-top: 10px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: rgb(181, 243, 119);
+	border: 1px solid green;
+}
+
+#comDet3 i {
+	margin-top: 10px;
+	padding-top: 10px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	background: rgb(243, 162, 133);
+	border: 1px solid yellow;
+}
+
+#comDet4 i {
+	margin-top: 10px;
+	padding-top: 10px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	border: 1px solid black;
+	background: rgb(236, 213, 83);
+}
+
+#comDet1 {
+	margin-top: 30px;
+	background-color: rgb(236, 197, 236);
+	padding-right: 15px;
+	border: 1px solid rgb(109, 109, 230);
+	height: 380px;
+
+}
+
+#comDet1:hover {
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.95);
+	background: rgb(183, 247, 240);
+}
+
+#comDet2:hover {
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.95);
+	background: rgb(183, 247, 240);
+}
+
+#comDet3:hover {
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.95);
+	background: rgb(183, 247, 240);
+}
+
+#comDet4:hover {
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.95);
+	background: rgb(183, 247, 240);
+}
+
+#comDet2 {
+	margin-top: 30px;
+	background-color: rgb(236, 197, 236);
+	padding-right: 15px;
+	border: 1px solid rgb(79, 224, 79);
+	height: 380px;
+}
+
+#comDet3 {
+	margin-top: 30px;
+	background-color: rgb(236, 197, 236);
+	padding-right: 15px;
+	border: 1px solid rgb(231, 103, 103);
+	height: 380px;
+}
+
+#comDet4 {
+	margin-top: 30px;
+	background-color: rgb(236, 197, 236);
+	padding-right: 15px;
+	border: 1px solid orange;
+	height: 380px;
+}
+
+.ComDiv {
+	margin-left: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-right: 0px;
+
+}
+
+#comDet2 img {
+	padding-top: 10px;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+}
+
+#comDet3 img {
+	padding-top: 10px;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+}
+
+#comDet4 img {
+	padding-top: 10px;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+}
+
+#comDet1 p {
+	padding-left: 10px;
+	padding-right: 0px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+#comDet2 p {
+	padding-left: 10px;
+	padding-right: 0px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+#comDet3 p {
+	padding-left: 10px;
+	padding-right: 0px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+#comDet4 p {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.card1 {
+	padding-top: 25px;
+	padding-left: 10px;
+}
+
+.card:hover {
+	box-shadow: 0 0 15px 5px rgba(180, 46, 46, 0.95);
+}
+
+.card2 {
+	padding-top: 25px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+.card3 {
+	padding-top: 25px;
+	padding-right: 10px;
+	padding-left: 0px;
+}
+
+.card4 {
+	padding-top: 25px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+.card5 {
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.card6 {
+	padding-top: 25px;
+	padding-right: 10px;
+}
+
+.card11 {
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.row1 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row2 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.form {
+	margin: 20px;
+}
+
+.row3 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row4 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row5 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.card22 {
+	padding-top: 25px;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.Limit {
+	padding-top: 5px;
+	color: white;
+	font-family: initial;
+	font-weight: 500;
+	font-size: 50px;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.TimerDiv {
+	padding-top: 150px;
+}
+
+.card33 {
+	padding-top: 25px;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+.Timer {
+	height: 600px;
+	background-image: url("bgImage/timer11.jpg");
+	border-bottom: 1px solid silver;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.card44 {
+	padding-top: 25px;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.card55 {
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+.card66 {
+	padding-top: 25px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+}
+
+.border {
+	border-bottom: 1px silver;
+}
+
+.more {
+	padding-top: 10px;
+}
+
+.inner {
+	overflow: hidden;
+}
+.Main {
+	background-color: white;
+	height: 540px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.inner img {
+	transition: 1.5s all ease;
+}
+
+.inner:hover img {
+	transform: scale(1.5);
+}
+
+.Main {
+	background-color: white;
+	height: 540px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#num:hover {
+	color: red;
+}
+
+.footer-link ul {
+	list-style-type: none;
+}
+
+.footer-link ul li a {
+	color: white;
+}
+
+.footer-link ul li a:hover {
+	text-decoration: underline;
+}
+
+.orderNow {
+	border-radius: 20px;
+	padding-top: 5px;
+}
+
+#MoreBtn {
+	padding-left: 38px;
+}
+
+#btn:hover {
+	background-color: red;
+}
+
+.orderT:hover {
+	color: red;
+}
+
+.btn:hover {
+	background-color: red;
+}
+
+.btn {
+	background-color: chocolate;
+}
+
+.Lap0 {
+	height: 65px;
+	width: 85px;
+	padding: 0px 3px;
+}
+
+.CentAnim {
+	font-size: 38px;
+}
+
+.CentAnim {
+	animation: zahid 10s infinite;
+}
+
+@keyframes zahid {
+	0% {
+		color: red;
+	}
+
+	10% {
+		color: blue;
+	}
+
+	20% {
+		color: yellow;
+	}
+
+	40% {
+		color: green;
+	}
+
+	50% {
+		color: brown;
+	}
+
+	60% {
+		color: purple
+	}
+
+	70% {
+		color: orange;
+	}
+
+	80% {}
+
+	100% {
+		color: navy;
+	}
+}
+
+@keyframes zahid {
+	0% {
+		color: brown;
+	}
+
+	10% {
+		color: blue;
+	}
+
+	20% {
+		color: yellow;
+	}
+
+	40% {
+		color: green;
+	}
+
+	50% {
+		color: brown;
+	}
+
+	60% {
+		color: purple
+	}
+
+	70% {
+		color: orange;
+	}
+
+	80% {
+		color: orangered
+	}
+
+	100% {
+		color: navy;
+	}
+}
+
+#BtnNav {
+	color: white;
+	background-color: rgb(230, 105, 16);
+	font-weight: bold;
+}
+
+#BtnNav:hover {
+	background-color: yellow;
+	color: black;
+}
+
+
+
+/* -------------------------------------------------------------- */

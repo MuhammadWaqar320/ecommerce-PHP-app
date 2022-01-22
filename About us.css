@@ -1,0 +1,19 @@
+.AboutHome {
+  color: black;
+}
+
+.AboutHome:hover {
+  color: red;
+  ;
+}
+
+.aboutHead {
+  padding-left: 180px;
+  padding-top: 90px;
+  ;
+}
+
+.footerDiv {
+  background-color: grey;
+  margin-bottom: 15px;
+}

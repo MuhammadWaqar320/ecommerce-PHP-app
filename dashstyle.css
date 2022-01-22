@@ -1,0 +1,59 @@
+.bgimg {
+    background-image: url(bgImage/Login2.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.rowsty {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.example_b {
+    color: black !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: black;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    transition: all 0.4s ease 0s;
+
+}
+
+.example_b:hover {
+    border-radius: 50px;
+    text-shadow: 0px 0px 6px rgb(161, 50, 50);
+    box-shadow: 0px 5px 40px -10px red;
+    box-shadow: 0px 5px 40px -10px blue;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    color: black;
+    color: ;
+}
+
+.button_cont {
+    margin-top: 5px;
+}
+
+.button_cont a {
+    width: 150px;
+}
+
+.asty {
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 80%;
+}
+
+.asty:hover {
+    background-color: red;
+    text-decoration: none;
+    color: black;
+}
